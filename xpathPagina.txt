@@ -1,0 +1,33 @@
+categorias
+//*[@id="default"]/div/div/div/aside/div[2]
+
+//ul de categorias
+//*[@id="default"]/div/div/div/aside/div[2]/ul
+
+//*[@id="default"]/div/div/div/aside/div[2]/ul/li/ul
+
+//link de categorias
+//*[@id="default"]/div/div/div/aside/div[2]/ul/li/ul/li[1]/a
+
+//link de todas as cagegorias - retiro [1]
+//*[@id="default"]/div/div/div/aside/div[2]/ul/li/ul/li/a
+
+//info dos livros
+//*[@id="default"]/div/div/div/div/section/div[2]/ol/li[1]/article
+//*[@id="default"]/div/div/div/div/section/div[2]/ol/li/article
+
+//o link do livro
+//*[@id="default"]/div/div/div/div/section/div[2]/ol/li[1]/article/div[1]/a
+
+//titulo do livro -- no atributo title do elemento a
+//*[@id="default"]/div/div/div/div/section/div[2]/ol/li[17]/article/h3/a
+
+//a quantidade de estrelas do livro
+//*[@id="default"]/div/div/div/div/section/div[2]/ol/li[1]/article/p
+
+//obter o preco
+//*[@id="default"]/div/div/div/div/section/div[2]/ol/li[17]/article/div[2]/p[1] --- p 1 fixo
+
+//obter o estoque
+//*[@id="default"]/div/div/div/div/section/div[2]/ol/li[17]/article/div[2]/p[2] --- p 2 fixo
+
