@@ -1,4 +1,4 @@
-# Scrappr em C# baseado em selenium
+# Scrapper em C# baseado em selenium
 
 Projeto de auxílio ao projeto Integrador, scrapper baseado em Selenium.
 Arquivo de projeto.
@@ -44,7 +44,6 @@ Esse site não necessita ser feito via Selenium, por quê?
 > - dotnet run
 
 2. Seguir o que está no arquivo Program.cs, incluso nesse repositório
-> a. Que tal passar para OO?
 
 3. Como pegar o XPATH através do Chrome (Acompanhar aula EAD para isso)
 > - 3.1 - Habilitar Ferramentas do Desenvolvedor ( Ctrl+Shift+I )
@@ -52,8 +51,8 @@ Esse site não necessita ser feito via Selenium, por quê?
 > - 3.3 - Clicar no elemento a ser inspecionado e no código HTML, com o bot±ao direito do mouse selecionar:
 >   - 3.3.1 - Copy e Copy XPATH ou Copy Full XPATH 
 
-4. Possíveis integras de projeto:
-> - 4.1 - Passar para OO
+4. Possíveis entregas de projetos:
+> - 4.1 - Passar para OO !!
 > - 4.2 - Fazer scrapper do site: https://www.fgp.edu.br/graduacao
 > - 4.3 - Fazer scrapper do site: http://quotes.toscrape.com/ (Dá para logar no site)
 
