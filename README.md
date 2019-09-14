@@ -8,7 +8,7 @@ Scrapper do site:
 
 Esse site não necessita ser feito via Selenium, por quê?
 
-## Pontos a considerar quando fizer um scrapper (Pesquisa suscinta sobre o tema):
+## Pontos a considerar quando fizer um scrapper (Pesquisa sucinta sobre o tema):
 > - Estudo inicial do site ao qual deseja obter os dados
 > - Tecnologia a ser adotada
 > - Selenium!? quando usar? 
