@@ -26,6 +26,7 @@ Esse site não necessita ser feito via Selenium, por quê?
 ## Instalações especificas:
 - Driver do Chrome:
     - a. Fazer download em http://chromedriver.chromium.org/downloads (Versão 77.x)
+    -   https://chromedriver.storage.googleapis.com/index.html?path=77.0.3865.40/
     -    (Atente-se de ter a partir dessa essa versao do browser em sua máquina)
     - b. Descompactar no diretorio do projeto
 
@@ -48,8 +49,8 @@ Esse site não necessita ser feito via Selenium, por quê?
 3. Como pegar o XPATH através do Chrome (Acompanhar aula EAD para isso)
 > - 3.1 - Habilitar Ferramentas do Desenvolvedor ( Ctrl+Shift+I )
 > - 3.2 - Habilitar Inspecionar Elemento (Ctrl+Shift+C)
-> - 3.3 - Clicar no elemento a ser inspecionado e no código HTML, com o bot±ao direito do mouse selecionar:
->   - 3.3.1 - Copy e Copy XPATH ou Copy Full XPATH 
+> - 3.3 - Clicar no elemento a ser inspecionado e no código HTML, com o botão direito do mouse, selecionar:
+>   - 3.3.1 - Copy --> Copy XPATH ou Copy Full XPATH 
 
 4. Possíveis entregas de projetos:
 > - 4.1 - Passar para OO !!
