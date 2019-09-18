@@ -73,17 +73,24 @@ namespace exemplo2
                     Console.Write("4 estrela");
                 else if (qtdeEstrelas.Contains("Five"))
                     Console.Write("5 estrela");
-                
+
+                //pega elemento html que contém o preco
                 var preco = item.FindElement(By.XPath("//*[@id='default']/div/div/div/div/section/div[2]/ol/li["+i+"]/article/div[2]/p[1]"));
+                //pega elemento html que contém o estoque
                 var estoque = item.FindElement(By.XPath("//*[@id='default']/div/div/div/div/section/div[2]/ol/li["+i+"]/article/div[2]/p[2]"));
+                //imprime o texto do elemento do html 
                 Console.WriteLine("\nPreço: {0}", preco.Text);
                 Console.WriteLine("Estoque: {0}", estoque.Text);
+
+                //procura o elemento HTML que contem o titulo
                 var elemTitulo = item.FindElement(By.XPath("//*[@id='default']/div/div/div/div/section/div[2]/ol/li["+i+"]/article/h3/a"));
+                //extrai o texto do elemento encontrado
                 var titulo = elemTitulo.GetAttribute("title");
                 Console.WriteLine("Titulo: {0}", titulo);
-                i++;
+                i++;  //vai para próximo item
 
                 //poderia ser adicionado a pagina do livro e fazer escrape de paginaçao também
+
             }
         }
     }
